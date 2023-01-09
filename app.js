@@ -5,5 +5,5 @@ app.listen(8080, ()=>{
 }); 
 
 app.get('/', ( req, res)=>{
-	res.send('<h2>Azeem here </h1>');
+	res.send('<h2>Azeem here and removed the duplication </h1>');
 });
